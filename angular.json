@@ -16,6 +16,7 @@
             "outputPath": "dist/portfolio-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/portfolio-app/",
             "polyfills": [
               "zone.js"
             ],
