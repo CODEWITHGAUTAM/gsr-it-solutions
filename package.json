@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
-    "heroku-postbuild": "ng build --configuration production --output-path=dist/portfolio-app",
+    "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -24,6 +23,7 @@
     "@angular/ssr": "^18.1.1",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.2",
+    "portfolio-app": "file:",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
