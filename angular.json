@@ -13,10 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/portfolio-app",
+            "outputPath": "dist/gsr-it-solutions",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "baseHref": "/portfolio-app/",
+            "baseHref": "/gsr-it-solutions/",
             "polyfills": [
               "zone.js"
             ],
